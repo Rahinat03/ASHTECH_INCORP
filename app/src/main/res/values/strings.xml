@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FITNESS APP</string>
+    <string name="Side_Plank">
+        Benefits of Side Plank \n1)Strengthens the core. \n2)Reduces risk of back injury. \n3)Strengthens arms
+    </string>
+    <string name="Lunges">
+        Benefits of Lunges \n1)Weight loss. \n2)Improves balance and coordination of the body. \n3)Better spinal heath.
+    </string>
+    <string name="High_stepping">
+        Benefits of High \n1)Reduces belly fat. \n2)Improves balance and fitness. \n3)Improves cardiovascular.
+    </string>
+    <string name="Bridge">
+        Benefits of Bridges \n1)Improves flexibility. \n2)Improves balance. \n3)Relieves back pain.
+    </string>
+    <string name="Cobra_stretch">
+        Benefits  of the Cobra Stretch \n1)Strengthens the spine. \n2)Helps relieve stress and fatigue. \n3)Therapeutic for asthma. \n4)Strengthens chest,lungs,shoulders and abdomen.
+    </string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stepCounterActivity"
+    android:background="@color/back_color">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/abel"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Steps Counter"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:id="@+id/Heading"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Steps"
+        android:layout_marginTop="200dp"
+        android:text="123"
+        android:background="@drawable/steps_back"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:textSize="65sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Steps"
+        android:text="Steps"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/StepsHeading"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FAB"
+        android:layout_below="@id/StepsHeading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:tint="@color/white"
+        android:src="@drawable/ic_play"
+        />
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
